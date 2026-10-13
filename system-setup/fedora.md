@@ -108,6 +108,17 @@ orca-ide open
 > [!TIP]
 > To update, repeat the install steps with the new RPM. The built-in updater only downloads the RPM.
 
+## Install Obsidian
+
+See https://flathub.org/apps/md.obsidian.Obsidian
+
+```bash
+flatpak install -y flathub md.obsidian.Obsidian
+```
+
+> [!NOTE]
+> The Flatpak is community-maintained and listed on [Obsidian's download page](https://obsidian.md/download). It updates via `flatpak update` or Discover, not `dnf-automatic`.
+
 ## Setup Tailscale
 
 See https://tailscale.com/kb/1130/install-fedora
