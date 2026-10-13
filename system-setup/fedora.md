@@ -117,7 +117,10 @@ flatpak install -y flathub md.obsidian.Obsidian
 ```
 
 > [!NOTE]
-> The Flatpak is community-maintained and listed on [Obsidian's download page](https://obsidian.md/download). It updates via `flatpak update` or Discover, not `dnf-automatic`.
+> The Flatpak is community-maintained, but linked from [Obsidian's download page](https://obsidian.md/download).
+
+> [!TIP]
+> To update, run `flatpak update` or use Discover. `dnf-automatic` does not cover Flatpak apps.
 
 ## Setup Tailscale
 
